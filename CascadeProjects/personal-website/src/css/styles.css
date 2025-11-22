@@ -287,6 +287,23 @@ nav.scrolled {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 5px solid #000;
+    transform: scale(1);
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .image-placeholder {
